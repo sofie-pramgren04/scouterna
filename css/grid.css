@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 48px auto 50px auto 50px ;
+  grid-gap: 3px;
+}
+.topnav{
+  grid-column: 1/-1 ;
+  grid-row: 1/2;
+}
+.slideshow-container{
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+section{
+  grid-column: 1/-1;
+  grid-row: 3/5;
+}
+footer{
+  grid-column: 1/-1;
+  grid-row: 5/6;
+}
