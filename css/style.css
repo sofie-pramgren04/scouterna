@@ -140,5 +140,20 @@ section{
 background-color: #9bc99e;
 }
 footer{
-  background-color: #7F803E ;
+  background-color: #7F803E;
+}
+.sparare{
+  text-align: left;
+}
+.upptackare{
+  text-align: right;
+}
+.aventyrare{
+  text-align: left;
+}
+.utmanare{
+  text-align: right;
+}
+.rover{
+  text-align: left;
 }
