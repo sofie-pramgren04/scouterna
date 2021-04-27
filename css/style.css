@@ -123,6 +123,7 @@ h1{
   color: black;
   text-align: center;
   text-decoration: underline;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 body{
   background-color:#f2ebd7;
@@ -130,11 +131,16 @@ body{
 h2{
   color: black;
   text-decoration: underline;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 h3{
   color: black;
   text-align: center;
   text-decoration: underline;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+p{
+  font-family: 'Noto Sans JP', sans-serif;
 }
 section{
 background-color: #9bc99e;
@@ -142,18 +148,46 @@ background-color: #9bc99e;
 footer{
   background-color: #7F803E;
 }
-.sparare{
+.sparare-rubrik{
   text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
 }
-.upptackare{
+.sparare-text{
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.upptackare-rubrik{
   text-align: right;
+  font-family: 'Noto Sans JP', sans-serif;
 }
-.aventyrare{
-  text-align: left;
-}
-.utmanare{
+.upptackare-text{
   text-align: right;
+  font-family: 'Noto Sans JP', sans-serif;
 }
-.rover{
+.aventyrare-rubrik{
   text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.aventyrare-text{
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.utmanare-rubrik{
+  text-align: right;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.utmanare-text{
+  text-align: right;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.rover-rubrik{
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.rover-text{
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.tofs{
+  width: 40%;
 }
