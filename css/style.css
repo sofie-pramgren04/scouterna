@@ -23,7 +23,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #68a86d;
   color: white;
 }
 
@@ -189,5 +189,29 @@ footer{
   font-family: 'Noto Sans JP', sans-serif;
 }
 .tofs{
-  width: 40%;
+width: 70%;
+}
+.megafon{
+width: 80%;
+}
+//* media queryn nedan är till för att inte bilderna ska inte hamna i texten*//
+@media only screen and (max-width: 870px) {
+  .tofs{
+  width: 70%;
+  }
+  .megafon{
+    width: 70%;
+  }
+  .lampa{
+    width: 70%;
+  }
+  .brasa{
+    width: 70%;
+  }
+  .hjarta{
+    width: 70%;
+  }
+}
+#Kontaktinformation{
+  font-size: 18px;
 }
