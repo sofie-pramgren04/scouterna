@@ -24,7 +24,7 @@
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #68a86d;
-  color: white;
+  color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -149,7 +149,7 @@ footer{
   background-color: #7F803E;
 }
 .knapp{
-  color: #1c1c1c;
+  color: black;
   text-align: center;
 }
 .sparare-rubrik{
@@ -209,7 +209,7 @@ width: 80%;
   width: 90%;
 }
 //* media queryn nedan är till för att inte bilderna ska inte hamna i texten*//
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 870px){
   .tofs{
   width: 70%;
   }
@@ -226,6 +226,7 @@ width: 80%;
     width: 70%;
   }
 }
+
 #Kontaktinformation{
   font-size: 18px;
 }
