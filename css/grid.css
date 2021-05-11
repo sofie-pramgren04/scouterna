@@ -5,10 +5,12 @@
   grid-template-rows: auto auto auto auto auto ;
   grid-gap: 3px;
 }
+/* Nedan specifieras vart menyn på sidan ska vara i grid*/
 .topnav{
   grid-column: 1/-1 ;
   grid-row: 1/2;
 }
+/*Nedan sepcifieras vart bildspelet på sidan ska vara i grid*/
 .slideshow-container{
   grid-column: 1/-1;
   grid-row: 3/4;
@@ -21,6 +23,7 @@ footer{
   grid-column: 1/-1;
   grid-row: 5/6;
 }
+/* .container2 är till för min andra sida*/
 .container2{
   height: 100%;
   display: grid;

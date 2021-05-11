@@ -148,6 +148,10 @@ background-color: #9bc99e;
 footer{
   background-color: #7F803E;
 }
+.knapp{
+  color: #1c1c1c;
+  text-align: center;
+}
 .sparare-rubrik{
   text-align: left;
   font-family: 'Noto Sans JP', sans-serif;
@@ -188,11 +192,21 @@ footer{
   text-align: left;
   font-family: 'Noto Sans JP', sans-serif;
 }
+/*Nedan specifieras storlekarna på bilderna på andra sidan*/
 .tofs{
 width: 70%;
 }
+.lampa{
+  width: 60%;
+}
+.brasa{
+  width: 100%;
+}
 .megafon{
 width: 80%;
+}
+.hjarta{
+  width: 90%;
 }
 //* media queryn nedan är till för att inte bilderna ska inte hamna i texten*//
 @media only screen and (max-width: 870px) {
